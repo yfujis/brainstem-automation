@@ -1,15 +1,15 @@
 # BrainSTEM Automation
 
-Standalone Python automation project for BrainSTEM logging and metadata updates.
+Standalone Python automation utilities for BrainSTEM logging and metadata updates.
 
 ## Files
 
 - `brainstem_logging.py`: BrainSTEM client wrapper + CLI
-- `BRAINSTEM_SETUP.md`: setup and command examples
+- `BRAINSTEM_SETUP.md`: Setup and command examples
 
 ## Quick Start
 
-1. Create and activate a virtual environment
+1. Create and activate a virtual environment.
 2. Install dependencies:
 
 ```powershell
@@ -25,4 +25,6 @@ python .\brainstem_logging.py list-projects
 
 ## Repository
 
-This folder is an independent git repository.
+This folder is an independent Git repository.
+
+For usage details, see [my blog post](https://yukifujishima.com/blog/2026/05/29/brainstem-automation-by-talking-to-an-llm).
