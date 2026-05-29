@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brainstem-automation"
+version = "0.1.0"
+description = "Automation utilities for BrainSTEM experiment logging"
+requires-python = ">=3.10"
+dependencies = [
+  "brainstem_python_api_tools>=2.0.0",
+]
+
+[project.scripts]
+brainstem-automation = "brainstem_logging:main"
